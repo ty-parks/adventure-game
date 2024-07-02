@@ -1,0 +1,52 @@
+### Welcome Screen
+print("Welcome to the Smokey Mountains of East Tennesee.")
+print("You have been staying at a remote log cabin on the side of a mountain, for the past two days.")
+print("The Fall air is crisp and the wind is blowing through the trees...A heavy fog is rolling in from the botton of the valley.")
+print("You get out of bed and make a fresh pot of hot coffee.")
+print("You cannot shake the feeling that you are being watched as you sip on a hot cup of coffee.")
+print("The large front windows show a bautiful view but make you feel uneasy.")
+print("You here a loud slap coming from the back of the cabin. The slap was so loud that it shakes all of the windows.")
+
+
+### Start of choices
+print("Do you want to Grab a weapon or Look out the back window?")
+
+### Prompt user for a choice
+choice1 = input("> ")
+
+if (choice1 == "Grab a weapon"):
+  print("You grab your trusty revolver and head out the door.")
+  print("As you walk out the door your vision gets hazy and you feel as if you just walked into a bubble.")
+  print("You stumble and fall the the cold wooden deck.")
+  print("Do you want to crawl back in the cabin or continue your investigation?")
+
+### Sub choice
+choice1a = input("> ")
+if (choice1a == "crawl back in the cabin"):
+  print("You crawl back in the cabin and lock the door, you hear the slap again.")
+
+elif (choice1a == "continue your investigation"):
+  print("You get up and walk around the corner to the back of the house.")
+  print("You see a large hairy figure standing in the tree line")
+  print("Do you want to draw your revolver?")
+
+### Final sub choice
+choice1ab = input("> ")
+if (choice1ab == "yes"):
+  print("You draw your weapon and the figure")
+
+elif (choice1ab == "no"):
+  print("You don't draw your weapon and realize it was a black bear.")
+  print("You go on about your day. The end.")
+
+
+
+elif (choice1 == "Look out the back window"):
+  print("You look out the back window and see a large shadowy figure peaking out from behind a large pine tree at the edge of the treeline.")
+  print("You think you are looking at a black bear but quickly realize the figure has the face of a man.")
+  print("You pack your bags and leave the country")
+
+
+
+else:
+  print("Invalid choice. Please enter 'Grab a weapon' or 'Look out the back window'.")
